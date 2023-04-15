@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NM2207 Recycling in Singapore</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"> </script>
+        <script defer type="text/javascript" src="dfChart.js">
+        </script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+        <style>
+            
+            body,
+            html {
+                height: 100%
+            }
+
+            body,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-family: "Montserrat", sans-serif
+            }
+
+            .menu {
+                display: none
+            }
+
+            .bgimg {
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url("https://i.postimg.cc/QM17k9RP/recycling-3.png");
+                min-height: 90%;
+            }
+        </style>
+
+    </head>
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top w3-hide-smal">
+        <div class="second" id="second"></div>
+        <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+            <a href="#" class="w3-bar-item w3-button">home</a>
+            <a href="#about" class="w3-bar-item w3-button">why recycle?</a>
+            <a href="#myMap" class="w3-bar-item w3-button">details</a>
+        </div>
+    </div>
+
+    <!-- Header with image -->
+    <header class="bgimg w3-display-container w3-sepia-min" id="home">
+        <div class="w3-display-middle w3-display-left w3-padding">
+            <h2 style="color:blue;">Recycling<br>in Singapore</h2>
+        </div>
+    </header>
+
+    <!-- Recycling Main Container -->
+    <div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
+        <div class="w3-content">
+            <span class="w3-text-white w3-hide-small" style="font-size:80px">Recycling<br>in Singapore</span>
+
+        <p>Recycling as a way of life</p><br>
+
+        <p>By 2030, Singapore aims to achieve 70 percent of overall recycling rate, as part of sustainability efforts (NEA,2021). Hence, there needs to be easier ways for residents to recycle their items!</p>
+        <br>
+        <canvas id="recycling-chart" style="width:100%;max-width:700px;max-height:400px;"></canvas>
+        <canvas id="sweden-chart" style="width:100%;max-width:700px;max-height:400px;"></canvas>
+        <canvas id="SGrecycleChart" style="width:100%;max-width:700px;max-height:400px;"></canvas>
+
+        
+                    <span class="w3-text-white w3-hide-small" style="font-size:100px">Recycling<br>in Singapore</span>
+
+        <p>Further Recycling Initiatives in Singapore</p>
+        <br>
+        <p>1. We should only place cleansed, recyclable items in the bin.</p>
+        <p>2. Sorting is not necessary when placing it into the blue bins!</p>
+
+    </script>
+</head>
+<body>
+
+
+</body>
+</html>
+
+    </div>
+
+    <!-- Context Container -->
+    <div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
+        <div class="w3-content">
+            <h1 class="w3-center w3-xxlarge" style="margin-bottom:64px">Recycling around the world</h1>
+            <p>The time to recycle has never been stronger. Little known by all, recycling actually reduces air and water pollution, while reducing greenhouse gases and concurrently conserving natural resources!</p>
+            <p><strong>Recycling?</strong> You're part of this world too.</p>
+    <!-- Embedding a video for context on how Sweden handles their waste-->
+            <iframe width="700" height="500"
+                src="https://www.youtube.com/embed/p71xuG_dP7M">
+                </iframe>
+            <p>We need to do more for our Earth.</p>
+                    </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Image of location/map -->
+    <img src="https://www.w3schools.com/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;" id="myMap">
+
+    <!-- Contact -->
+    <div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
+        <div class="w3-content">
+            <h1 class="w3-center w3-hide-medium" style="margin: bottom 50px;">Want to know more about how you can contribute to a greener Earth?</h1>
+            <p>Contact us for more information!</p>
+            <p class="w3-xlarge">
+            <form action="/action_page.php" target="_blank">
+                <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name">
+                </p>
+                <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Company" required
+                        name="People"></p>
+                <p><input class="w3-input w3-padding-16 w3-border" type="Other"
+                        placeholder="Message" required name="Message"></p>
+                <p><button class="w3-button w3-light-grey w3-block" type="submit">SEND MESSAGE</button></p>
+            </form>
+            
+        </div>
+    </div>
+<br>
+    <div class="first">
+        <button type="button" onclick="smoothScroll(document.getElementById('second'))">Back to Top</button></div>
+</body>
+</html>
